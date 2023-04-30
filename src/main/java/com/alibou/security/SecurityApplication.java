@@ -13,11 +13,9 @@ import static com.alibou.security.user.Role.MANAGER;
 
 @SpringBootApplication
 public class SecurityApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(SecurityApplication.class, args);
 	}
-
 	@Bean
 	public CommandLineRunner commandLineRunner(
 			AuthenticationService service
@@ -40,7 +38,6 @@ public class SecurityApplication {
 					.role(MANAGER)
 					.build();
 			System.out.println("Manager token: " + service.register(manager).getAccessToken());
-
 		};
 	}
 }

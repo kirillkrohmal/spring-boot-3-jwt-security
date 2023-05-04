@@ -5,12 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ad61af6-74c1-42ef-8dd9-84db958a8f82" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibou/security/controller/RecommendationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibou/security/repository/RecommendationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibou/security/service/RecommendationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibou/security/service/RecommendationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alibou/security/user/Recommendation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/alibou/security/SecurityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alibou/security/SecurityApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alibou/security/auth/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alibou/security/auth/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alibou/security/auth/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alibou/security/auth/AuthenticationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alibou/security/config/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alibou/security/config/ApplicationConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alibou/security/config/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alibou/security/config/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alibou/security/config/JwtService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alibou/security/config/JwtService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alibou/security/config/LogoutService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alibou/security/config/OpenApiConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alibou/security/config/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alibou/security/config/SecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alibou/security/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alibou/security/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alibou/security/SecurityApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alibou/security/SecurityApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alibou/security/auth/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alibou/security/auth/AuthenticationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alibou/security/auth/AuthenticationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alibou/security/auth/AuthenticationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alibou/security/config/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alibou/security/config/ApplicationConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alibou/security/config/JwtAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alibou/security/config/JwtAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alibou/security/config/JwtService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alibou/security/config/JwtService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alibou/security/config/LogoutService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alibou/security/config/OpenApiConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alibou/security/config/SecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alibou/security/config/SecurityConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alibou/security/user/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alibou/security/user/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/alibou/security/user/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/alibou/security/user/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -33,14 +69,23 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/project/it-labor-exchange",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "spring.configuration.checksum": "e91e6348157868de9dd8b25c81aebfb9",
     "vue.rearranger.settings.migration": "true"
   },
@@ -50,7 +95,12 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SecurityApplication">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.alibou.security.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SecurityApplication">
     <configuration name="SecurityApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.alibou.security.SecurityApplication" />
       <module name="security" />
@@ -86,6 +136,9 @@
       <option name="presentableId" value="Default" />
       <updated>1682792200570</updated>
       <workItem from="1682840674815" duration="2024000" />
+      <workItem from="1682942324730" duration="5244000" />
+      <workItem from="1683041538391" duration="6782000" />
+      <workItem from="1683200478622" duration="2003000" />
     </task>
     <servers />
   </component>
